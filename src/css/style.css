@@ -49,17 +49,17 @@ p, h5 {
   text-align: justify;
   margin: 0 0 1em;
 }
+section {
+  padding-left: 0; /* Remove padding on smaller screens */
+}
 
 }
-/* For smaller screens, remove the padding */
-@media (max-width: 768px) {
+@media (min-width: 1024px) { /* Adjust the min-width value as needed for large screens */
   section {
-      padding-left: 0; /* Remove padding on smaller screens */
+      padding-left: 100px; /* Adds space on the left side */
   }
 }
-section {
-  padding-left: 100px; /* Adjust the padding value to add space */
-}
+
 
 
 .profile-pic {
